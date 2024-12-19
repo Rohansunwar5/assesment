@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Django secret key file (if any)
+.env
+
+# PyCharm or other IDE files
+.idea/
+
+# Node.js dependencies (if you're using them)
+node_modules/
+
+# Log files
+*.log
+
+# Coverage reports (if using testing frameworks)
+.coverage
+.tox/
+.nox/
+
+# Database
+db.sqlite3
+
+# Media files (if you're not using them in version control)
+media/
+
+# Static files (if you generate them locally and don't need them in Git)
+static/
